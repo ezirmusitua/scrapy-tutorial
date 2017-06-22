@@ -12,3 +12,9 @@ class QuoteItem(scrapy.Item):
     text = scrapy.Field()
     author = scrapy.Field()
     tags = scrapy.Field()
+
+
+class LeiPhoneNewsItem(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()
+    description = scrapy.Field()
