@@ -1,6 +1,6 @@
 from scrapy.http import HtmlResponse
 
-response = HtmlResponse(url='http://doc.scrapy.org/en/latest/_static/selectors-sample1.httml')
+response = HtmlResponse(url='http://doc.scrapy.org/en/latest/_static/selectors-sample1.html')
 
 # querying with xpath
 print('with xpath: ', response.xpath('//title/text()'))
