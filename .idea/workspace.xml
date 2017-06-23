@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7ad0a32-affa-426a-93ec-9ac15e2f0bb4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/item_loader/item_loader/items.py" afterPath="$PROJECT_DIR$/item_loader/item_loader/items.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +16,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="items.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/item_loader/item_loader/items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+                <state relative-caret-position="598">
+                  <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
                   <folding>
-                    <element signature="e#152#165#0" expanded="true" />
+                    <element signature="e#151#164#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="quotes.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="quotes.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/item_loader/item_loader/spiders/quotes.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+                <state relative-caret-position="552">
+                  <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
                   <folding>
                     <element signature="e#24#37#0" expanded="true" />
                   </folding>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/selector/xpath-usage.py" />
         <option value="$PROJECT_DIR$/items/main.py" />
         <option value="$PROJECT_DIR$/spider/scrapy.cfg" />
-        <option value="$PROJECT_DIR$/item_loader/item_loader/items.py" />
         <option value="$PROJECT_DIR$/item_loader/item_loader/spiders/quotes.py" />
+        <option value="$PROJECT_DIR$/item_loader/item_loader/items.py" />
       </list>
     </option>
   </component>
@@ -764,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/spider/spiders/leiphone.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -788,22 +780,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item_loader/item_loader/items.py">
+    <entry file="file://$PROJECT_DIR$/spider/spider/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#152#165#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item_loader/item_loader/spiders/quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="552">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item_loader/item_loader/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#151#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
