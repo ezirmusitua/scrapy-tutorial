@@ -11,9 +11,18 @@ from scrapy.loader.processors import TakeFirst, MapCompose, Join
 
 
 class QuoteItem(scrapy.Item):
-    text = scrapy.Field()
-    author = scrapy.Field()
-    tags = scrapy.Field()
+    text = scrapy.Field(
+        input_processor=MapCompose(str.strip, string.capwords),
+        output_processor=Join()
+    )
+    author = scrapy.Field(
+        input_processor=str.strip,
+        out_processor=Join()
+    )
+    tags = scrapy.Field(
+        input_processor=MapCompose(str.strip, string.capwords),
+        output_processor=Join()
+    )
 
 
 class QuoteLoader(scrapy.ItemLoader):
