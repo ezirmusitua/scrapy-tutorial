@@ -1,12 +1,20 @@
 <component name="ProjectDictionaryState">
   <dictionary name="jferroal">
     <words>
+      <w>downloadermiddlewares</w>
+      <w>dupefilter</w>
       <w>ezirmusitua</w>
+      <w>httpcompression</w>
       <w>itemprop</w>
       <w>itemscope</w>
       <w>itemtype</w>
       <w>iternodes</w>
       <w>itertag</w>
+      <w>middlewares</w>
+      <w>mongo</w>
+      <w>newspider</w>
+      <w>robotstxt</w>
+      <w>scrapy</w>
     </words>
   </dictionary>
 </component>
