@@ -66,6 +66,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'pipeline.pipelines.RemoveLovePipeline': 300,
     'pipeline.pipelines.JsonWriterPipeline': 301,
+    'pipeline.pipelines.MongoPipeline': 302,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,3 +89,5 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+MONGO_URI = 'localhost:27017'
+MONGO_DATABASE = 'python_exercise'
