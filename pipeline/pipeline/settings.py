@@ -66,7 +66,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'pipeline.pipelines.ScreenShotPipeline': 100,
+    # 'pipeline.pipelines.ScreenShotPipeline': 100,
+    'pipeline.pipelines.DuplicatesPipeline': 200,
     'pipeline.pipelines.RemoveLovePipeline': 300,
     'pipeline.pipelines.JsonWriterPipeline': 301,
     'pipeline.pipelines.MongoPipeline': 302,

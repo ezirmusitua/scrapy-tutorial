@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import hashlib
+
 from scrapy.linkextractors import LinkExtractor
 from scrapy.loader import ItemLoader
 from scrapy.spiders import CrawlSpider, Rule

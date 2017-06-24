@@ -24,5 +24,6 @@ class QuoteItem(scrapy.Item):
         input_processor=strip_input,
         output_processor=Join()
     )
+    text_hash = scrapy.Field()
     tags = scrapy.Field()
     screen_shot_filename = scrapy.Field()

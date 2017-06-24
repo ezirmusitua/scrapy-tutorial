@@ -86,3 +86,17 @@ class ScreenShotPipeline(object):
         # Store filename in item.
         item["screen_shot_filename"] = filename
         return item
+
+
+class DuplicatesPipeline(object):
+    def __init__(self):
+        self.texts_seen = set()
+
+    def process_item(self, item, spider):
+        text_hash = hashlib.md5(item['text'].encode()).hexdigest()
+        if text_hash in self.texts_seen:
+            raise DropItem("Duplicate item found: %s" % item)
+        else:
+            item['text_hash'] = text_hash
+            self.texts_seen.add(text_hash)
+            return item
