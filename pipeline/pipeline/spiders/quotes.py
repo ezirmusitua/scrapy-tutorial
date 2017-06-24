@@ -7,6 +7,7 @@ from ..items import QuoteItem
 
 class QuotesSpider(CrawlSpider):
     name = 'quotes'
+    url_base = 'https://quotes.toscrape.com'
     allowed_domains = ['toscrape.com']
     start_urls = ['http://quotes.toscrape.com']
 
@@ -21,6 +22,7 @@ class QuotesSpider(CrawlSpider):
         for quote in divs:
             item_loader = ItemLoader(item=QuoteItem(), selector=quote)
             item_loader.add_css('author', 'small.author::text')
+            item_loader.add_css('author_link', 'span:nth-child(2)>a::attr(href)')
             item_loader.add_css('text', 'span.text::text')
             item_loader.add_css('tags', 'div.tags a.tag::text')
             items.append(item_loader.load_item())
