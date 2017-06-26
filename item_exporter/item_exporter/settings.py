@@ -66,6 +66,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'item_exporter.pipelines.XmlExportPipeline': 100,
     'item_exporter.pipelines.CsvExportPipeline': 101,
+    'item_exporter.pipelines.PickleExportPipeline': 102,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
